@@ -1,3 +1,4 @@
+import DashboardComponents from "@/components/dashboard/DashboardComponents";
 import { redirect } from "next/navigation";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
 
   return (
     <div>
-      {/* <h1>This is my portfolio application</h1> */}
+      <DashboardComponents/>
     </div>
   );
 }
