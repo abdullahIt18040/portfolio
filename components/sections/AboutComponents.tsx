@@ -75,7 +75,7 @@ const AboutComponents: React.FC = () => {
 
               <div className="relative bg-white rounded-3xl shadow-2xl p-3">
                 <Image
-                  src="/images/profile.png"
+                  src="./images/profile.png"
                   alt="Md Abdullah Al Mamun"
                   width={400}
                   height={500}
